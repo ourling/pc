@@ -1,0 +1,200 @@
+@import "../mixin/template";
+
+.banner{
+  width: 100%;
+}
+
+.mobile-body {
+  background: #fff;
+}
+
+.part{
+  border: none;
+  margin-bottom: 0;
+  .title-container{
+    @include font(.4rem,#333);
+    text-align: center;
+    &.line{
+      position: relative;
+      margin-bottom: .3rem;
+    }
+    &.line:after{
+      background: #6191FF;
+      bottom: 0;
+      content: "";
+      @include position('X');
+      width: 30%;
+      height: .03rem;
+    }
+  }
+  .card-container{
+    padding-top: .22rem;
+    padding-bottom: 0;
+  }
+}
+.form-container{
+  @include font(.32rem,#333);
+  margin-bottom: .4rem;
+  .card-2{
+    width: 58%;
+  }
+  .card-2:last-child{
+    width: 42%;
+  }
+  .left-txt{
+    float: left;
+    margin-right: .2rem;
+    line-height: .6rem;
+  }
+  .form-ctrl{
+    box-sizing: border-box;
+    border: 1px solid #C7C7C7;
+    border-radius: .05rem;
+    float: left;
+    height: .6rem;
+    padding: 0 .33rem;
+    -webkit-transition: .5s;
+    transition: .5s;
+  }
+  .waring{
+    border-color: #ff0000;
+  }
+  .form-lg{
+    width: 83%;
+  }
+  .form-md{
+    width: 66%;
+  }
+  .form-spe{
+    width: 74%;
+  }
+  .address-container{
+    float: left;
+    position: relative;
+    width: 26%;
+    margin-right: .18rem;
+    input{
+      width: 100%;
+    }
+    .text{
+      @include position("Y");
+      right: .27rem;
+    }
+  }
+  .address-container:last-child{
+    margin-right: 0;
+  }
+}
+.card-container{
+  .card-title{
+    @include font(.32rem,#333);
+    text-align: center;
+    width: 100%;
+  }
+  .card-text{
+    @include font(.24rem,#333);
+    @include align();
+    width: 100%;
+  }
+}
+.agency-foot{
+  margin-bottom: .8rem;
+  position: relative;
+  .m-btn{
+    @include position('X');
+    @include  font(.3rem,#fff);
+    box-sizing: border-box;
+    display: block;
+    width: 3.43rem;
+    height: .96rem;
+    text-align: center;
+    padding: .34rem 0;
+    bottom: .32rem;
+  }
+}
+.card-container-1{
+  .m-btn{
+    @include  font(.32rem,#fff);
+    margin: .7rem auto .3rem;
+    box-sizing: border-box;
+    background: #E60012;
+    display: block;
+    width: 5.08rem;
+    text-align: center;
+    padding: .38rem 0;
+  }
+}
+.card-container-3{
+  .card-2{
+    padding: .1rem;
+  }
+  .img-container{
+    height: 4.7rem;
+  }
+  &.card-container{
+    .card-title{
+      @include position('X');
+      color: #fff;
+      top: 1.55rem;
+    }
+    .card-text{
+      @include position('X');
+      top: 2.88rem;
+      width: 88%;
+    }
+  }
+  .icon{
+    @include position('X');
+    @include icon(.7rem,.6rem);
+    top: .64rem;
+  }
+  @include iconimg('../../images/agency/part03-img',4,'img',cover);
+  @include iconimg('../../images/agency/part03-icon',4,'icon');
+}
+.card-container-7{
+  position: relative;
+  .m-btn{
+    @include position('X');
+    @include  font(.3rem,#fff);
+    box-sizing: border-box;
+    background: #4199F9;
+    display: block;
+    width: 3.74rem;
+    height: .98rem;
+    text-align: center;
+    padding: .34rem 0;
+    bottom: .5rem;
+  }
+}
+.card-container-8{
+  &.card-container{
+    .card-title{
+      @include font(.28rem,#333,.55rem);
+    }
+  }
+  .icon{
+    @include icon(.7rem,.7rem);
+    margin-top: .65rem;
+    margin-bottom: .3rem;
+  }
+  @include iconimg('../../images/agency/part08-icon',6);
+}
+.swiper-container{
+  .swiper-slide{
+    height: 7rem;
+  }
+  @include iconimg('../../images/agency/part10-icon',5)
+}
+
+.phone_tips{
+  @include position('X');
+  bottom: 1.8rem;
+  -webkit-transition: .5s;
+  transition: .5s;
+  &.waring{
+    color: #ff0000;
+  }
+  &.success{
+    color: #00DD00;
+  }
+}

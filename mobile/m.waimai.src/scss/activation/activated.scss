@@ -1,0 +1,32 @@
+@import "../mixin/template";
+body{
+  background: #F5F8FA;
+}
+#app{
+  @include align(center);
+}
+.title{
+  @include font(.4rem,#179FF4);
+  margin-top: 2rem;
+  font-weight: bold;
+}
+.title-bar{
+  @include font(.3rem,#475669);
+  margin-top: .3rem;
+}
+.value-container{
+  margin-top: 1.6rem;
+  .value-content{
+    margin: 0 auto .38rem;
+    text-align: left;
+    width: 53%;
+  }
+  .label{
+    @include font(.32rem,#475669);
+    float: left;
+  }
+  .value{
+    @include font(.32rem,#1F2D3D);
+    float: left;
+  }
+}

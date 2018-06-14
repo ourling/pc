@@ -1,0 +1,270 @@
+@import "../minix/template";
+
+.pos-banner{
+  display: table;
+  background: url("../../images/pos/pos_banner.png") no-repeat center;
+  background-size: cover;
+  width: 100%;
+  height: 647px;
+}
+.pos-banner-text{
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+}
+.pos-banner-text h2{
+  font-size: 57px;
+  font-weight: normal;
+  color: #fff;
+  text-align: center;
+}
+.pos-banner-text h3{
+  padding-top: 10px;
+  font-size: 36px;
+  font-weight: normal;
+  color: #fff;
+}
+.pos-banner-text span{
+  font-size: 48px;
+  text-align: center;
+  color: #ff6C1E;
+}
+.pos-block{
+  display: block;
+  position: relative;
+  background: #FAFAFA;
+}
+.pos-width1200{
+  width: 1200px;
+  margin: 0 auto;
+}
+.pos-list-ul{
+  padding: 56px 0 70px 0;
+}
+.pos-list-ul:before, .pos-list-ul:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+.pos-list-ul li{
+  display: inline-block;
+  float: left;
+  width: 25%;
+  margin: 0 auto;
+  height: 306px;
+}
+.pos-list-ul li h3{
+  font-size: 30px;
+  font-weight: normal;
+  text-align: center;
+  color: #333;
+}
+
+.pos-list-ul li .icon{
+  display: inline-block;
+  margin: 0 auto 30px;
+  width: 217px;
+  height: 206px;
+}
+.pos-icon-01{
+  background: url("../../images/pos/pos_icon_01.png") no-repeat center;
+}
+.pos-icon-02{
+  background: url("../../images/pos/pos_icon_02.png") no-repeat center;
+}
+.pos-icon-03{
+  background: url("../../images/pos/pos_icon_03.png") no-repeat center;
+}
+.pos-icon-04{
+  background: url("../../images/pos/pos_icon_04.png") no-repeat center;
+}
+.pos-line{
+  display: inline-block;
+  width: 1px;
+  height: 209px;
+  background: #b4b4b4;
+  opacity: 0.2;
+  position: relative;
+  top: -18px;
+  left: 25%;
+}
+.pos-list{
+  position: relative;
+}
+.pos-block .item.active{
+  border-bottom: 8px solid #4BA8FF;
+}
+.item-content {
+  display: none;
+}
+.item-content.active{
+  display: block;
+}
+.pos-block .item{
+  bottom: -3px;
+  border-bottom: 8px solid transparent;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 22px;
+  position: relative;
+  transition: .6s;
+}
+.pos-img-01{
+  background: url("../../images/pos/pos_01.jpg") no-repeat center;
+  background-size: cover;
+  width: 100%;
+  height: 774px;
+}
+.pos-img-02{
+  background: url("../../images/pos/pos_02.jpg") no-repeat center;
+  background-size: cover;
+  width: 100%;
+  height: 748px;
+}
+.pos-img-03{
+  background: url("../../images/pos/pos_03.jpg") no-repeat center;
+  background-size: cover;
+  width: 100%;
+  height: 746px;
+}
+.pos-img-04{
+  background: url("../../images/pos/pos_04.jpg") no-repeat center;
+  background-size: cover;
+  width: 100%;
+  height: 754px;
+}
+.pos-img-05{
+  background: url("../../images/pos/pos_05.jpg") no-repeat center;
+  background-size: cover;
+  width: 100%;
+  height: 745px;
+}
+.pos-img-06{
+  background: url("../../images/pos/pos_06.jpg") no-repeat center;
+  background-size: cover;
+  width: 100%;
+  height: 750px;
+}
+.pos-img-07{
+  background: url("../../images/pos/pos_07.jpg") no-repeat center;
+  background-size: cover;
+  width: 100%;
+  height: 754px;
+}
+.pos-img-08{
+  background: url("../../images/pos/pos_08.jpg") no-repeat center;
+  background-size: cover;
+  width: 100%;
+  height: 749px;
+}
+.pos-img-09{
+  background: url("../../images/pos/pos_09.jpg") no-repeat center;
+  background-size: cover;
+  width: 100%;
+  height: 1026px;
+}
+.inte-img-01{
+  background: url("../../images/pos/inte_cashier_01.jpg") no-repeat center;
+  background-size: cover;
+  width: 100%;
+  height: 753px;
+}
+.inte-img-02{
+  background: url("../../images/pos/inte_cashier_02.jpg") no-repeat center;
+  background-size: cover;
+  width: 100%;
+  height: 749px;
+}
+.inte-img-03{
+  background: url("../../images/pos/inte_cashier_03.jpg") no-repeat center;
+  background-size: cover;
+  width: 100%;
+  height: 747px;
+}
+.inte-img-04{
+  background: url("../../images/pos/inte_cashier_04.jpg") no-repeat center;
+  background-size: cover;
+  width: 100%;
+  height: 750px;
+}
+.inte-img-05{
+  background: url("../../images/pos/inte_cashier_05.jpg") no-repeat center;
+  background-size: cover;
+  width: 100%;
+  height: 600px;
+}
+.inte-img-06{
+  background: url("../../images/pos/inte_cashier_06.jpg") no-repeat center;
+  background-size: cover;
+  width: 100%;
+  height: 149px;
+}
+.inte-img-07{
+  background: url("../../images/pos/inte_cashier_07.jpg") no-repeat center;
+  background-size: cover;
+  width: 100%;
+  height: 749px;
+}
+.inte-img-08{
+  background: url("../../images/pos/inte_cashier_08.jpg") no-repeat center;
+  background-size: cover;
+  width: 100%;
+  height: 801px;
+}
+.sweep-img-01{
+  background: url("../../images/pos/sweep_code_01.jpg") no-repeat center;
+  background-size: cover;
+  width: 100%;
+  height: 801px;
+}
+.sweep-img-02{
+  background: url("../../images/pos/sweep_code_02.jpg") no-repeat center;
+  background-size: cover;
+  width: 100%;
+  height: 1049px;
+}
+.sweep-img-03{
+  background: url("../../images/pos/sweep_code_03.jpg") no-repeat center;
+  background-size: cover;
+  width: 100%;
+  height: 934px;
+}
+.sweep-img-04{
+  background: url("../../images/pos/sweep_code_04.jpg") no-repeat center;
+  background-size: cover;
+  width: 100%;
+  height: 808px;
+}
+.pos-foot-img{
+  background: url("../../images/pos/pos_foot.png") no-repeat center;
+  background-size: cover;
+  width: 100%;
+  height: 248px;
+}
+.pos-foot-img h3{
+  font-size: 30px;
+  font-weight: normal;
+  text-align: center;
+  color: #fff;
+  padding: 40px 0 5px 0;
+}
+.pos-foot-img h2{
+  font-size: 40px;
+  font-weight: normal;
+  text-align: center;
+  color: #fff;
+  padding-bottom: 20px;
+}
+.pos-foot-btn{
+  display: block;
+  width:243px;
+  height:48px;
+  background:rgba(255,108,30,1);
+  border-radius: 5px ;
+  font-size: 17px;
+  line-height: 48px;
+  text-align: center;
+  color: #fff;
+  margin: 0 auto;
+
+}

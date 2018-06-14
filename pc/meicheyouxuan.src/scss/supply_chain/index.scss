@@ -1,0 +1,140 @@
+@import "../mixin/card";
+
+
+
+
+.supply-banner{
+  margin-top: 72px;
+  background: url("../../images/supply_chain/banner.png") no-repeat center;
+  background-size: cover;
+  width: 100%;
+  height: 500px;
+
+}
+.supply-banner h2{
+  font-size: 129px;
+  text-align: center;
+  color: #fff;
+  position: relative;
+  top: 130px;
+}
+.supply-banner h3{
+  font-size: 40px;
+  font-weight: normal;
+  text-align: center;
+  color: #fff;
+  position: relative;
+  top: 120px;
+}
+.supply-content{
+  position: relative;
+}
+.width1200{
+  width: 1200px;
+  margin: 0 auto;
+}
+.supply-line{
+  position: relative;
+  top: 99px;
+  margin: 0 auto;
+  width: 1185px;
+  border: 1px solid #D2D2D2;
+}
+.supply-h3{
+  position: relative;
+  top: 30px;
+  width: 184px;
+  height: 30px;
+  font-size: 30px;
+  font-weight: normal;
+  text-align: center;
+  color: #333;
+  line-height: 30px;
+  background: #fff;
+  margin: 50px auto;
+}
+.supply-ul{
+  padding: 50px 0;
+}
+.supply-ul:before, .supply-ul:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+.supply-ul li{
+  float: left;
+  width: 33.3%;
+}
+.supply-ul li .icon{
+  display: table;
+  margin: 0 auto 40px;
+  width: 368px;
+  height: 275px;
+}
+.car-01{
+  background: url("../../images/supply_chain/car_01.png") no-repeat center;
+}
+.car-02{
+  background: url("../../images/supply_chain/car_02.png") no-repeat center;
+}
+.car-03{
+  background: url("../../images/supply_chain/car_03.png") no-repeat center;
+}
+.car-04{
+  background: url("../../images/supply_chain/car_04.png") no-repeat center;
+}
+.car-05{
+  background: url("../../images/supply_chain/car_05.png") no-repeat center;
+}
+.car-06{
+  background: url("../../images/supply_chain/car_06.png") no-repeat center;
+}
+.car-img{
+  background: url("../../images/supply_chain/car_img.png") no-repeat center;
+  background-size: cover;
+  width: 100%;
+  height: 553px;
+}
+.car-title{
+  font-size: 36px;
+  font-weight: normal;
+  color: #fff;
+  text-align: center;
+  position: relative;
+  top: 157px;
+}
+.code-icon{
+  background: url("../../images/supply_chain/code_icon.png") no-repeat center;
+  background-size: cover;
+  width: 239px;
+  height: 239px;
+  margin: 20px auto;
+  position: relative;
+  top: 180px;
+}
+.gray-img{
+  background: #F4F4F4;
+}
+.supply-block{
+  padding: 30px 0 50px 0;
+}
+.gray-supply-h3{
+  position: relative;
+  top: 30px;
+  width: 184px;
+  height: 30px;
+  font-size: 30px;
+  font-weight: normal;
+  text-align: center;
+  color: #333;
+  line-height: 30px;
+  background:  #F4F4F4;
+  margin: 50px auto;
+}
+.supply-flow{
+  background: url("../../images/supply_chain/supply_flow.png") no-repeat center;
+  background-size: cover;
+  width: 1083px;
+  height: 173px;
+  margin: 20px auto;
+}

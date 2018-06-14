@@ -1,0 +1,8 @@
+.idea/
+pc/node_modules/
+pc/config.js
+pc/gulpfile.js
+pc/package.json
+mobile/node_modules/
+mobile/config.js
+mobile/gulpfile.js

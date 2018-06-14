@@ -1,0 +1,85 @@
+footer {
+  background: #1A1F25;
+  width: 100%;
+}
+.footer-container {
+  position: relative;
+  width: 1200px;
+  margin: auto;
+}
+.partner-container:before{
+  position: absolute;
+  top: -10px;
+  width: 100%;
+  content: "";
+  background: #f1f1f1;
+  height: 1px;
+}
+.partner{
+  background: #fff;
+  padding: 45px 0;
+  .card-container{
+    position: relative;
+  }
+  .top-item{
+    line-height: 32px;
+    margin-bottom: 40px;
+    .logo{
+      float: left;
+      margin-right: 40px;
+    }
+    .item{
+      @include font(14px,#333);
+      position: relative;
+      float: left;
+      padding: 0 10px;
+    }
+    .cut-off:first-child{
+      padding-left: 0;
+    }
+    .cut-off:after{
+      content: "";
+      @include position('Y');
+      width: 1px;
+      height: 16px;
+      background: #D2D2D2;
+      right: 0;
+    }
+  }
+  .card-2-spe{
+    @include card(50%);
+    .foot-desc{
+      @include font(14px,#666,18px);
+    }
+    .tel{
+      color: #333;
+    }
+  }
+  .card-2-spe:last-child{
+    @include position('Y');
+    right: 0;
+    text-align: center;
+    .txt{
+      @include font(16px,#333);
+      margin-top: 15px;
+    }
+  }
+}
+.down-icon{
+  @include font(13px,#DEDEDE,0);
+  .footer-container{
+    width: 1200px;
+    padding: 20px 0;
+    text-align: center;
+  }
+  p{
+    margin-bottom: 12px;
+  }
+  a{
+    color: #666;
+  }
+  a:hover{
+    color: #666;
+    text-decoration: none;
+  }
+}

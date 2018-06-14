@@ -1,0 +1,26 @@
+@import "../mixin/template";
+.login-success-icon{
+  @include icon(2.4rem,2.4rem);
+  margin: 23% auto 10%;
+  background: url('../../images/success/success.png') no-repeat center;
+  background-size: contain;
+}
+.login-text{
+  @include font(.55rem,#333,.85rem);
+  text-align: center
+}
+.green-tip{
+  @include font(.36rem,#16B136,.1rem);
+  text-align: center
+}
+.pc-text{
+  @include font(.33rem,#333,.9rem);
+  text-align: center;
+  a {
+    color: #169FF5;
+  }
+}
+.contact-text{
+  @include font(.36rem,#333,.1rem);
+  text-align: center
+}

@@ -1,0 +1,107 @@
+@import "../mixin/card";
+.banner{
+  margin-top: 72px;
+  position: relative;
+  .banner-container{
+    @include position('X');
+    text-align: center;
+    top: 110px;
+    .title{
+      @include font(129px,#fff,20px);
+      font-weight: 700;
+    }
+    .title-bar{
+      @include font(40px,#fff);
+    }
+  }
+  .banner-item{
+    min-width: 1200px;
+    height: 500px;
+  }
+  .banner-item-1{
+    background: url('../../images/serve/banner.png') no-repeat center;
+    background-size: cover;
+  }
+}
+.title-container{
+  padding: 50px 0;
+  margin: auto;
+  width: 1200px;
+  .title{
+    position: relative;
+    @include font(30px,#000);
+  }
+  .title:before,.title:after{
+    @include position('Y');
+    content: "";
+    background: #d2d2d2;
+    height: 1px;
+  }
+  .title:before{
+    left: 0;
+  }
+  .title:after{
+    right: 0;
+  }
+  .title-bar{
+    @include font(18px,#8E8E8E);
+    margin-top: 30px;
+  }
+}
+.container{
+  padding-bottom: 50px;
+}
+[class*=card-]{
+  text-align: center;
+  .card-title{
+    @include font(20px,#333,12px);
+    font-weight: 700;
+  }
+  .card-txt{
+    @include font(16px,#666);
+  }
+}
+.container-1{
+  .title-container{
+    .title:before,.title:after{
+      width: 36%;
+    }
+  }
+  .icon{
+    @include icon(272px,268px);
+  }
+  .card-txt{
+    @include font(20px,#000);
+    bottom: 24px;
+    position: absolute;
+    width: 100%;
+  }
+  @include iconimg("../../images/serve/part01-icon",4);
+}
+.container-2{
+  background: #f4f4f4;
+  .title-container{
+    .title:before,.title:after{
+      width: 36%;
+    }
+  }
+}
+.container-3{
+  .title-container{
+    .title:before,.title:after{
+      width: 40%;
+    }
+  }
+  .icon{
+    @include icon(272px,272px);
+    margin-bottom: 40px;
+  }
+  .card-txt{
+    @include font(30px,#fff);
+    background: #75ACFF;
+    border-radius: 32px;
+    display: inline-block;
+    padding: 16px 36px;
+  }
+  @include iconimg('../../images/serve/part03-icon',3);
+}

@@ -1,0 +1,76 @@
+@import "../mixin/card";
+.banner{
+  margin-top: 72px;
+  .banner-item{
+    min-width: 1200px;
+    height: 500px;
+  }
+  .banner-item-1{
+    background: url('../../images/index/banner.png') no-repeat center;
+    background-size: cover;
+  }
+}
+.container-1{
+  background: #F4F4F4;
+}
+.container-2{
+  padding: 35px 0;
+}
+.container-3{
+  background: url('../../images/index/part03-bg.png') no-repeat center;
+  background-size: cover;
+  min-width: 1200px;
+  .container{
+    position: relative;
+    height: 275px;
+  }
+  .btn-bg{
+    @include position('Y');
+    @include icon(200px,51px);
+    right: 130px;
+    background: url('../../images/index/btn-bg.png') no-repeat center;
+    background-size: contain;
+    cursor: pointer;
+  }
+}
+.container-4{
+  padding: 100px 0 35px;
+  .stack-up-2{
+    .card-2-spe:first-child{
+      background: url('../../images/index/part04-bg1.png') no-repeat center;
+      background-size: contain;
+      height: 418px;
+      width: 640px;
+    }
+    .card-2-spe:last-child{
+      background: url('../../images/index/part04-bg2.png') no-repeat center;
+      background-size: cover;
+      height: 496px;
+    }
+  }
+}
+.container-5{
+  background: #F4F4F4;
+  padding: 62px 0 72px;
+  .item{
+    @include font(16px,#333);
+    display: inline-block;
+    line-height: 62px;
+    padding: 0 30px;
+    .icon{
+      @include icon(50px,50px);
+      @include position('Y');
+    }
+    .txt{
+      display: inline-block;
+      margin-left: 60px;
+    }
+    &.cut-off{
+      border-right: 1px solid #333;
+    }
+    @include iconimg('../../images/index/part05-icon',3)
+  }
+  .item:first-child{
+    padding-left: 0;
+  }
+}

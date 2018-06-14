@@ -1,0 +1,63 @@
+@import "../mixin/template";
+body{
+  background: #F5F8FA;
+}
+#app{
+  @include align(center);
+}
+.title{
+  @include font(.4rem,#179FF4);
+  margin-top: 2rem;
+  font-weight: bold;
+}
+.input-container{
+  margin-top: 2.2rem;
+  position: relative;
+  .input-label{
+    @include font(.32rem,#475669,.4rem);
+  }
+  .input-pwd{
+    @include font(.3rem,#475669);
+    box-sizing: border-box;
+    display: block;
+    margin: auto;
+    text-align: center;
+    padding: .12rem 0 .15rem;
+    width: 3rem;
+    outline: none;
+    border: 1px solid #179FF4;
+    border-radius: .08rem;
+    -webkit-transition: box-shadow .2s;
+    transition: box-shadow .2s;
+  }
+  .input-pwd:focus{
+    -webkit-box-shadow: 0 0 .15rem #179FF4;
+    box-shadow: 0 0 .15rem #179FF4;
+  }
+  .input-msg{
+    @include font(.3rem,#ed3f14);
+    @include position('X');
+    bottom: -.5rem;
+  }
+}
+.conform{
+  @include font(.32rem,#fff);
+  padding: .12rem 0 .15rem;
+  box-sizing: border-box;
+  background: #179FF4;
+  border-radius: .08rem;
+  display: block;
+  margin: 2.1rem auto 0;
+  width: 3.3rem;
+  -webkit-transition: background .2s;
+  transition: background .2s;
+  &.no-btn{
+    background: #ccc;
+  }
+}
+.fade-enter-active, .fade-leave-active {
+  transition: opacity .3s;
+}
+.fade-enter, .fade-leave-to {
+  opacity: 0;
+}
